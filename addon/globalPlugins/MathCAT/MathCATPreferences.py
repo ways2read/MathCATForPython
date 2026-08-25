@@ -12,7 +12,7 @@ import addonHandler
 from logHandler import log  # logging
 from collections.abc import Callable
 from .MathCAT import convertSSMLTextForNVDA
-from . import libmathcat_py as libmathcat
+from ._libmathcat_loader import libmathcat
 from speech import speak
 from zipfile import ZipFile
 
